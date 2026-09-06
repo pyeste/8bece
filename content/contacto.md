@@ -17,7 +17,7 @@ draft: false
 </div>
 
 <div>
-<h3>Envíanos un mensaje ✉️</h3>
+<h3>Envíanos un mensaje</h3>
 
 <form action="https://formspree.io/f/xljewbop" method="POST" style="display: flex; flex-direction: column; gap: 1rem;">
 
