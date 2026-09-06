@@ -1,0 +1,71 @@
+{{- define "main" }}
+
+{{/* 1. CONTENIDO DE LA PORTADA (_index.md) */}}
+{{- if .Content }}
+<div class="post-content">
+  {{- .Content }}
+</div>
+{{- end }}
+
+{{/* 2. BLOQUE DE COMUNICADOS / ARTÍCULOS (2 POR LÍNEA) */}}
+{{ $posts := where .Site.RegularPages "Section" "posts" }}
+{{- if $posts }}
+<h2 class="section-title">Últimos Comunicados</h2>
+
+<div class="grid-posts">
+  {{ range first 6 $posts }}
+  <article class="post-entry">
+    {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" false) }}
+    <header class="entry-header">
+      <h2 class="entry-hint-parent">
+        {{- .Title }}
+      </h2>
+    </header>
+    {{- if (ne (.Param "hideSummary") true) }}
+    <div class="entry-content">
+      <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+    </div>
+    {{- end }}
+    {{- if not (.Param "hideMeta") }}
+    <footer class="entry-footer">
+      {{- partial "post_meta.html" . -}}
+    </footer>
+    {{- end }}
+    <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+  </article>
+  {{ end }}
+</div>
+{{- end }}
+
+
+{{/* 3. BLOQUE DE NOTAS DE PRENSA (1 POR LÍNEA) */}}
+{{ $prensa := where .Site.RegularPages "Section" "prensa" }}
+{{- if $prensa }}
+<h2 class="section-title">Notas de Prensa</h2>
+
+<div class="list-prensa">
+  {{ range first 5 $prensa }}
+  <article class="post-entry">
+    {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" false) }}
+    <header class="entry-header">
+      <h2 class="entry-hint-parent">
+        {{- .Title }}
+      </h2>
+    </header>
+    {{- if (ne (.Param "hideSummary") true) }}
+    <div class="entry-content">
+      <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+    </div>
+    {{- end }}
+    {{- if not (.Param "hideMeta") }}
+    <footer class="entry-footer">
+      {{- partial "post_meta.html" . -}}
+    </footer>
+    {{- end }}
+    <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+  </article>
+  {{ end }}
+</div>
+{{- end }}
+
+{{- end }}

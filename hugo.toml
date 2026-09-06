@@ -14,7 +14,7 @@ theme = 'papermod'
   # CONFIGURACIÓN DE LA LANDING PAGE (PROFILE MODE)
   [params.homeInfoParams]
     Title = "Manifiesto"
-    Content = "Un espacio dedicado a conectar personas, impulsar proyectos locales y compartir novedades. Consulta nuestras últimas actividades a continuación o conócenos mejor."
+    Content = "Accede a la lectura de nuestro *manifiesto* a través del [siguiente enlace](/manifiesto)"
 
   # REDES SOCIALES / CONTACTO EN LA PORTADA
   [[params.socialIcons]]

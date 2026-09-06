@@ -31,3 +31,59 @@
 .btn-contacto:active {
     transform: translateY(0);
 }
+/* Justificar el texto de la portada y de los artículos */
+.post-content p,
+.entry-content p,
+.post-single .post-content {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Mantener coherencia tipográfica en los encabezados */
+.section-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--primary);
+}
+/* 1. Espaciado superior e inferior para los títulos dentro del contenido */
+.post-content h1,
+.post-content h2,
+.post-content h3 {
+  margin-top: 2rem !important;
+  margin-bottom: 1.25rem !important;
+}
+
+/* 2. Espaciado superior e inferior para las imágenes dentro del texto */
+.post-content img,
+.post-content figure {
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+  display: block;
+}
+
+/* 3. Espaciado entre párrafos de texto */
+.post-content p {
+  margin-bottom: 1.25rem;
+}
+
+/* Contenedor en cuadrícula de 2 columnas para Comunicados/Posts */
+.grid-posts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Anular márgenes por defecto de PaperMod dentro del grid para evitar desajustes */
+.grid-posts .post-entry {
+  margin-bottom: 0 !important;
+}
+
+/* En pantallas móviles (smartphones), mostrar 1 por línea para legibilidad */
+@media (max-width: 768px) {
+  .grid-posts {
+    grid-template-columns: 1fr;
+  }
+}
