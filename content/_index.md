@@ -2,7 +2,7 @@
 title: "Inicio"
 layout: "simple" # O usa la maquetación estándar
 ---
-![Portada](/images/portada.jpg)
+![Portada](images/portada.jpg)
 
 
 # ¿Quiénes somos?
