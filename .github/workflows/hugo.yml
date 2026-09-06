@@ -22,8 +22,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      # Actualizado a una versión moderna de Hugo
-      HUGO_VERSION: 0.143.1
+      HUGO_VERSION: 0.146.0
     steps:
       - name: Install Hugo CLI
         run: |
@@ -33,7 +32,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive  # Carga las plantillas clonadas como submódulo
+          submodules: recursive
           fetch-depth: 0
 
       - name: Setup Pages
