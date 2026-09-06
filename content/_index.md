@@ -1,6 +1,7 @@
 ---
-title: "Inicio"
-layout: "simple" # O usa la maquetación estándar
+title: Inicio
+layout: simple
+preview: /images/portada.jpg
 ---
 ![Portada](images/portada.jpg)
 

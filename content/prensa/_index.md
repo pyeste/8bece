@@ -1,4 +1,5 @@
-------
-title: "Próximos Eventos y Actividades"
-description: "Calendario y convocatorias para los socios"
+---
+title: Apariciones en prensa
+preview: /images/vivienda.jpg
+description: Artículos, entrevistas, ruedas de prensa...
 ---
