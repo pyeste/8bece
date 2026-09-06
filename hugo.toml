@@ -1,0 +1,62 @@
+baseURL = 'http://localhost:1313/'
+locale = 'es-es'
+title = 'Todas con las #8deBecerril'
+theme = 'PaperMod'
+
+[params]
+  env = 'production'
+  title = 'Todas con las #8deBecerril'
+  description = 'Sitio web dedicado a la campaña para la absolución de las 8 de Becerril, activistas encausadas por protestar pacíficamente en la Vuelta Ciclista 2025.'
+  defaultTheme = 'auto' # Puede ser 'light', 'dark' o 'auto'
+  ShowCodeCopyButtons = true
+  mainSections = ["posts", "prensa"]
+  
+  # CONFIGURACIÓN DE LA LANDING PAGE (PROFILE MODE)
+  [params.homeInfoParams]
+    Title = "Manifiesto"
+    Content = "Un espacio dedicado a conectar personas, impulsar proyectos locales y compartir novedades. Consulta nuestras últimas actividades a continuación o conócenos mejor."
+
+  # REDES SOCIALES / CONTACTO EN LA PORTADA
+  [[params.socialIcons]]
+    name = "instagram"
+    url = "https://instagram.com/viviendavillalba"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:contacto@8bece.cloud"
+
+# MENÚ DE NAVEGACIÓN SUPERIOR
+[menu]
+  [[menu.main]]
+    name = 'Inicio'
+    url = '/'
+    weight = 10
+
+  [[menu.main]]
+    name = 'Noticias'
+    url = '/posts/'
+    weight = 20
+	
+  [[menu.main]]
+    name = 'Prensa'
+    url = '/prensa/'
+    weight = 20
+	
+  [[menu.main]]
+    name = 'Manifiesto'
+    url = '/manifiesto/'
+    weight = 20	
+	
+  [[menu.main]]
+    name = 'Colabora'
+    url = '/colabora/'
+    weight = 30
+
+  [[menu.main]]
+    name = 'Contacto'
+    url = '/contacto/'
+    weight = 40
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true # Permite renderizar código HTML en los archivos .md

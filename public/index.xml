@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Inicio on Todas con las #8deBecerril</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Inicio on Todas con las #8deBecerril</description>
+    <generator>Hugo</generator>
+    <language>es-es</language>
+    <lastBuildDate>Sun, 06 Sep 2026 10:15:00 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nueva Actividad de la Asociación</title>
+      <link>http://localhost:1313/posts/aceite_marinaleda/</link>
+      <pubDate>Sun, 06 Sep 2026 10:15:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/aceite_marinaleda/</guid>
+      <description>Resumen breve de la noticia que aparecerá en las tarjetas de la portada.</description>
+    </item>
+    <item>
+      <title>Nueva Actividad de la Asociación</title>
+      <link>http://localhost:1313/posts/apoyo_flotilla/</link>
+      <pubDate>Sun, 06 Sep 2026 10:15:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/apoyo_flotilla/</guid>
+      <description>Resumen breve de la noticia que aparecerá en las tarjetas de la portada.</description>
+    </item>
+    <item>
+      <title>Nueva Actividad de la Asociación</title>
+      <link>http://localhost:1313/posts/apoyo_valladolid/</link>
+      <pubDate>Sun, 06 Sep 2026 10:15:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/apoyo_valladolid/</guid>
+      <description>Resumen breve de la noticia que aparecerá en las tarjetas de la portada.</description>
+    </item>
+    <item>
+      <title>Nueva Actividad de la Asociación</title>
+      <link>http://localhost:1313/prensa/rueda_prensa/</link>
+      <pubDate>Sun, 06 Sep 2026 10:15:00 +0200</pubDate>
+      <guid>http://localhost:1313/prensa/rueda_prensa/</guid>
+      <description>Resumen breve de la noticia que aparecerá en las tarjetas de la portada.</description>
+    </item>
+    <item>
+      <title>Colabora</title>
+      <link>http://localhost:1313/colabora/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/colabora/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Link adhesión al manifiesto (+ listado de colectivos adheridos) con textito para animarse a la adhesión (cogerlo del formulario)&lt;/li&gt;
+&lt;li&gt;Link al goteo con textito para animarse a colaborar (cogerlo del formulario)&lt;/li&gt;
+&lt;li&gt;Convocatoria manifestación (cuando esté)&lt;/li&gt;
+&lt;li&gt;Otras convocatorias si las hubiera&lt;/li&gt;
+&lt;li&gt;Link para comprar aceite (con breve explicación de la campaña)&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Contacto</title>
+      <link>http://localhost:1313/contacto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contacto/</guid>
+      <description>Ponte en contacto con nosotras.</description>
+    </item>
+    <item>
+      <title>Manifiesto</title>
+      <link>http://localhost:1313/manifiesto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/manifiesto/</guid>
+      <description>&lt;p&gt;El estado terrorista de Israel está perpetrando un genocidio del pueblo palestino. A pesar de esto, los estados occidentales siguen permitiendo su participación en eventos deportivos y culturales. Como consecuencia, numerosos actos de boicot en solidaridad con Palestina se han llevado a cabo en todo el planeta. El nuestro fue uno de miles.&lt;/p&gt;
+&lt;p&gt;El pasado 13 de septiembre de 2025, durante la penúltima etapa de La Vuelta Ciclista a España, la Asamblea de Vivienda de Villalba (AVV) co-organizó una acción de boicot y protesta por la participación del equipo sionista Israel Premier Tech. A la altura de Becerril de la Sierra, más de un centenar de personas ocuparon la carretera y un par se descolgaron de un puente para mostrar pacíficamente su solidaridad con el pueblo palestino.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
