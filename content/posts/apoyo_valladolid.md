@@ -5,7 +5,7 @@ draft: false
 tags: ["actividades", "comunicados"]
 summary: "Resumen breve de la noticia que aparecerá en las tarjetas de la portada."
 cover:
-  image: "/images/1.jpg"
+  image: "images/1.jpg"
   alt: "Imagen de la actividad"
 ---
 
