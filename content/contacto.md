@@ -8,17 +8,11 @@ draft: false
 
 <div>
 <h3>¡Hablemos!</h3>
-<p>¿Tienes alguna duda, propuesta o quieres unirte a la asociación? Escríbenos directamente o utiliza el formulario.</p>
-
-<div style="background: var(--tertiary); padding: 1.2rem; border-radius: 8px; margin-top: 1rem;">
-<h4 style="margin-top:0;">📍 Dónde estamos</h4>
-<p style="margin-bottom:0.5rem;">Calle Principal 123, Planta 1<br>28001 Madrid, España</p>
+<p>¿Tienes alguna duda o propuesta? Escríbenos directamente o utiliza el formulario.</p>
 
 <h4>📧 Correo Electrónico</h4>
 <p style="margin-bottom:0.5rem;"><a href="mailto:desdenmail.duck.com">desdenmail@duck.com</a></p>
 
-<h4>🕒 Horario de Atención</h4>
-<p style="margin-bottom:0;">Lunes a Viernes: 16:00 - 20:00 h</p>
 </div>
 </div>
 
