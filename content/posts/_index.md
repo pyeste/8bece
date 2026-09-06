@@ -1,4 +1,4 @@
 ---
-title: "Noticias y Comunicados"
-description: "Últimas novedades sobre la asociación"
+title: Noticias y Comunicados
+description: Sección de noticias y comunicados en relación con las 8 de Becerril
 ---

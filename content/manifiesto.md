@@ -21,4 +21,5 @@ Dada esta situación, exigimos:
 La absolución de nuestras ocho compañeras de todos los cargos.
 La ruptura, real y sin matices, de las relaciones diplomáticas, culturales y comerciales entre el Estado español y el israelí.
 El veto a los equipos israelíes de las competiciones deportivas y culturales que se lleven a cabo dentro de las fronteras del Estado español.
-¡ABSOLUCIÓN PARA LAS 8 DE BECERRIL! ¡VIVA PALESTINA LIBRE!
+
+**¡ABSOLUCIÓN PARA LAS 8 DE BECERRIL! ¡VIVA PALESTINA LIBRE!**
