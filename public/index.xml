@@ -6,8 +6,15 @@
     <description>Recent content in Inicio on Todas con las #8deBecerril</description>
     <generator>Hugo</generator>
     <language>es-es</language>
-    <lastBuildDate>Sun, 06 Sep 2026 10:15:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 08:21:47 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Entrada Prueba</title>
+      <link>http://localhost:1313/posts/2026-09-10-entrada-prueba/</link>
+      <pubDate>Thu, 10 Sep 2026 08:21:47 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2026-09-10-entrada-prueba/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</description>
+    </item>
     <item>
       <title>Aceite de Marinaleda</title>
       <link>http://localhost:1313/posts/aceite_marinaleda/</link>
@@ -20,14 +27,14 @@
       <link>http://localhost:1313/posts/apoyo_flotilla/</link>
       <pubDate>Sun, 06 Sep 2026 10:15:00 +0200</pubDate>
       <guid>http://localhost:1313/posts/apoyo_flotilla/</guid>
-      <description>Resumen breve de la noticia que aparecerá en las tarjetas de la portada.</description>
+      <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa..</description>
     </item>
     <item>
       <title>Apoyo Valladolid</title>
       <link>http://localhost:1313/posts/apoyo_valladolid/</link>
       <pubDate>Sun, 06 Sep 2026 10:15:00 +0200</pubDate>
       <guid>http://localhost:1313/posts/apoyo_valladolid/</guid>
-      <description>Resumen breve de la noticia que aparecerá en las tarjetas de la portada.</description>
+      <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</description>
     </item>
     <item>
       <title>El País: Ocho activistas afrontan un proceso penal por el boicot a La Vuelta en la sierra de Madrid</title>
