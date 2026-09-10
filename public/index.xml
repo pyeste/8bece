@@ -30,7 +30,14 @@
       <description>Resumen breve de la noticia que aparecerá en las tarjetas de la portada.</description>
     </item>
     <item>
-      <title>Rueda de prensa</title>
+      <title>El País: Ocho activistas afrontan un proceso penal por el boicot a La Vuelta en la sierra de Madrid</title>
+      <link>http://localhost:1313/prensa/2026-09-06-elpais/</link>
+      <pubDate>Sun, 06 Sep 2026 10:15:00 +0200</pubDate>
+      <guid>http://localhost:1313/prensa/2026-09-06-elpais/</guid>
+      <description>Resumen breve de la noticia que aparecerá en las tarjetas de la portada.</description>
+    </item>
+    <item>
+      <title>El Salto: Golpeadas en las cargas policiales de La Vuelta: &#39;Por supuesto que volvería&#39;</title>
       <link>http://localhost:1313/prensa/rueda_prensa/</link>
       <pubDate>Sun, 06 Sep 2026 10:15:00 +0200</pubDate>
       <guid>http://localhost:1313/prensa/rueda_prensa/</guid>
@@ -41,7 +48,8 @@
       <link>http://localhost:1313/colabora/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/colabora/</guid>
-      <description>&lt;ul&gt;
+      <description>&lt;p&gt;Actualmente existen distintas formas de colaborar con la causa.&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;Link adhesión al manifiesto (+ listado de colectivos adheridos) con textito para animarse a la adhesión (cogerlo del formulario)&lt;/li&gt;
 &lt;li&gt;Link al goteo con textito para animarse a colaborar (cogerlo del formulario)&lt;/li&gt;
 &lt;li&gt;Convocatoria manifestación (cuando esté)&lt;/li&gt;

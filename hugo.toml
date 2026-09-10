@@ -6,12 +6,12 @@ theme = 'papermod'
 [params]
   env = 'production'
   title = 'Todas con las #8deBecerril'
-  description = 'Sitio web dedicado a la campaña para la absolución de las 8 de Becerril, activistas encausadas por protestar pacíficamente en la Vuelta Ciclista 2025.'
+  description = 'Sitio web dedicado a la campaña para la absolución de las 8 de Becerril, activistas encausadas por protestar pacíficamente en la Vuelta Ciclista.'
   defaultTheme = 'auto' # Puede ser 'light', 'dark' o 'auto'
   ShowCodeCopyButtons = true
   mainSections = ["posts", "prensa"]
   
-  # CONFIGURACIÓN DE LA LANDING PAGE (PROFILE MODE)
+  # CONFIGURACIÓN DE LA LANDING PAGE
   [params.homeInfoParams]
     Title = "Manifiesto"
     Content = "Accede a la lectura de nuestro *manifiesto* a través del [siguiente enlace](/manifiesto)"
@@ -24,6 +24,10 @@ theme = 'papermod'
   [[params.socialIcons]]
     name = "email"
     url = "mailto:contacto@8bece.cloud"
+
+# TEXTO DE LA CABECERA / LOGO
+[params.label]
+  text = "Todas con las"
 
 # MENÚ DE NAVEGACIÓN SUPERIOR
 [menu]
@@ -56,6 +60,7 @@ theme = 'papermod'
     name = 'Contacto'
     url = '/contacto/'
     weight = 40
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

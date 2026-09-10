@@ -4,13 +4,21 @@
 {{- if .Content }}
 <div class="post-content">
   {{- .Content }}
+  
+  {{/* Botón destacado al Manifiesto */}}
+  <div style="display: flex; justify-content: center; margin-top: 1.8rem; margin-bottom: 2rem;">
+    <a href="{{ "manifiesto/" | relURL }}" class="btn-ver-mas" style="padding: 0.85rem 2rem; font-size: 1.05rem;">
+      <span>Lee nuestro manifiesto</span>
+      <span class="arrow">→</span>
+    </a>
+  </div>
 </div>
 {{- end }}
 
 {{/* 2. BLOQUE DE COMUNICADOS / ARTÍCULOS (2 POR LÍNEA) */}}
 {{ $posts := where .Site.RegularPages "Section" "posts" }}
 {{- if $posts }}
-<h2 class="section-title">Últimos Comunicados</h2>
+<h2 class="section-title">Artículos y Comunicados</h2>
 
 <div class="grid-posts">
   {{ range first 6 $posts }}
@@ -35,13 +43,21 @@
   </article>
   {{ end }}
 </div>
+
+{{/* Botón de Ver más para Artículos */}}
+<div style="display: flex; justify-content: center; margin-top: 2rem; margin-bottom: 3.5rem;">
+  <a href="{{ "posts/" | relURL }}" class="btn-ver-mas">
+    <span>Ver todos los artículos</span>
+    <span class="arrow">→</span>
+  </a>
+</div>
 {{- end }}
 
 
 {{/* 3. BLOQUE DE NOTAS DE PRENSA (1 POR LÍNEA) */}}
 {{ $prensa := where .Site.RegularPages "Section" "prensa" }}
 {{- if $prensa }}
-<h2 class="section-title">Notas de Prensa</h2>
+<h2 class="section-title">Prensa</h2>
 
 <div class="list-prensa">
   {{ range first 5 $prensa }}
@@ -65,6 +81,14 @@
     <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
   </article>
   {{ end }}
+</div>
+
+{{/* Botón de Ver más para Prensa */}}
+<div style="display: flex; justify-content: center; margin-top: 2rem; margin-bottom: 3.5rem;">
+  <a href="{{ "prensa/" | relURL }}" class="btn-ver-mas">
+    <span>Ver toda la prensa</span>
+    <span class="arrow">→</span>
+  </a>
 </div>
 {{- end }}
 

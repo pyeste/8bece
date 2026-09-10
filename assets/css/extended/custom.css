@@ -1,37 +1,49 @@
+/* ==========================================
+   1. VARIABLES DE COLOR (MODO CLARO Y OSCURO)
+   ========================================== */
 :root {
-    /* Color de acento para el MODO CLARO */
-    --primary: #853085;        /* Color al pasar el ratón (hover) */
-    --tertiary: #e6f0fa;       /* Color de fondo para etiquetas/bloques */
+  /* Marca/Acento morado en modo claro */
+  --primary: #853085;
+  --tertiary: rgba(133, 48, 133, 0.08); /* Fondo suave en sintonía con el morado */
 }
 
 .dark {
-    /* Color de acento para el MODO OSCURO */
-    --primary: #80c0ff;        /* Color al pasar el ratón (hover) */
-    --tertiary: #1a2633;       /* Color de fondo para etiquetas/bloques */
+  /* Marca/Acento morado claro en modo oscuro */
+  --primary: #c276c2;
+  --tertiary: rgba(194, 118, 194, 0.12); /* Fondo suave en modo oscuro */
 }
+
+/* ==========================================
+   2. BOTÓN DE FORMULARIO DE CONTACTO
+   ========================================== */
 .btn-contacto {
-    background-color: #0066cc !important;
-    color: #ffffff !important;
-    padding: 0.8rem 1.8rem;
-    border: none;
-    border-radius: 6px;
-    font-weight: bold;
-    font-size: 1rem;
-    cursor: pointer;
-    width: 100%;
-    margin-top: 0.5rem;
-    transition: background-color 0.2s ease, transform 0.1s ease;
+  background-color: var(--primary) !important;
+  color: var(--theme) !important;
+  padding: 0.8rem 1.8rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 0.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: all 0.2s ease-in-out;
 }
 
 .btn-contacto:hover {
-    background-color: #004d99 !important;
-    transform: translateY(-2px);
+  filter: brightness(1.15);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
 }
 
 .btn-contacto:active {
-    transform: translateY(0);
+  transform: translateY(0);
 }
-/* Justificar el texto de la portada y de los artículos */
+
+/* ==========================================
+   3. TIPOGRAFÍA, JUSTIFICACIÓN Y ESPACIADOS
+   ========================================== */
 .post-content p,
 .entry-content p,
 .post-single .post-content {
@@ -39,7 +51,6 @@
   text-justify: inter-word;
 }
 
-/* Mantener coherencia tipográfica en los encabezados */
 .section-title {
   font-size: 1.6rem;
   font-weight: 700;
@@ -47,7 +58,7 @@
   margin-bottom: 1rem;
   color: var(--primary);
 }
-/* 1. Espaciado superior e inferior para los títulos dentro del contenido */
+
 .post-content h1,
 .post-content h2,
 .post-content h3 {
@@ -55,7 +66,6 @@
   margin-bottom: 1.25rem !important;
 }
 
-/* 2. Espaciado superior e inferior para las imágenes dentro del texto */
 .post-content img,
 .post-content figure {
   margin-top: 2rem !important;
@@ -63,12 +73,13 @@
   display: block;
 }
 
-/* 3. Espaciado entre párrafos de texto */
 .post-content p {
   margin-bottom: 1.25rem;
 }
 
-/* Contenedor en cuadrícula de 2 columnas para Comunicados/Posts */
+/* ==========================================
+   4. GRID DE COMUNICADOS Y AJUSTES DE IMAGEN
+   ========================================== */
 .grid-posts {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -76,14 +87,142 @@
   margin-bottom: 2rem;
 }
 
-/* Anular márgenes por defecto de PaperMod dentro del grid para evitar desajustes */
 .grid-posts .post-entry {
   margin-bottom: 0 !important;
 }
 
-/* En pantallas móviles (smartphones), mostrar 1 por línea para legibilidad */
+/* Ajuste específico para acortar la distancia entre la portada y el título */
+.grid-posts .post-entry .entry-cover {
+  margin-bottom: 0.35rem !important;
+}
+
+.grid-posts .post-entry .entry-cover img {
+  display: block;
+  margin-bottom: 0 !important;
+  border-radius: 8px;
+}
+
+.grid-posts .post-entry .entry-header,
+.grid-posts .post-entry .entry-content {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
 @media (max-width: 768px) {
   .grid-posts {
     grid-template-columns: 1fr;
   }
+}
+
+/* ==========================================
+   5. BOTÓN SECUNDARIO "VER MÁS"
+   ========================================== */
+.btn-ver-mas {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.8rem;
+  background-color: var(--entry);
+  color: var(--primary);
+  border: 1.5px solid var(--border);
+  border-radius: 24px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.04);
+  transition: all 0.25s ease-in-out;
+  position: static !important;
+}
+
+.btn-ver-mas:hover {
+  background-color: var(--primary);
+  color: var(--theme);
+  border-color: var(--primary);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn-ver-mas .arrow {
+  transition: transform 0.25s ease-in-out;
+}
+
+.btn-ver-mas:hover .arrow {
+  transform: translateX(4px);
+}
+/* ==========================================
+   4. GRID DE COMUNICADOS Y AJUSTES DE TARJETA
+   ========================================== */
+.grid-posts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Anular márgenes inferiores por defecto */
+.grid-posts .post-entry {
+  margin-bottom: 0 !important;
+  padding: 0.6rem 0.6rem 1.25rem 0.6rem !important; /* Reduce el marco/borde blanco alrededor de la foto y bordes laterales */
+}
+
+/* Conservar la separación limpia entre la imagen y el título */
+.grid-posts .post-entry .entry-cover {
+  margin-bottom: 1rem !important; /* Distancia idéntica entre foto y texto */
+}
+
+.grid-posts .post-entry .entry-cover img {
+  display: block;
+  border-radius: 6px;
+  width: 100%;
+}
+
+/* Mantener la alineación del texto dentro de la tarjeta */
+.grid-posts .post-entry .entry-header,
+.grid-posts .post-entry .entry-content,
+.grid-posts .post-entry .entry-footer {
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+}
+
+@media (max-width: 768px) {
+  .grid-posts {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* Cabecera integrada con la fuente nativa de la web */
+.logo a {
+  font-family: inherit !important;
+  font-weight: 600 !important;
+  font-size: 1.25rem !important;    /* Tamaño para "Todas con las" */
+  color: var(--primary) !important;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  letter-spacing: -0.02em;
+  text-decoration: none !important;
+}
+
+/* Badge con el hashtag sensiblemente más grande */
+.logo a::after {
+  content: "#8deBecerril";
+  font-family: inherit !important;
+  background-color: var(--tertiary);
+  color: var(--primary);
+  border: 1px solid var(--border);
+  padding: 0.25rem 0.75rem;
+  border-radius: 8px;
+  font-size: 1.45rem;               /* Más grande que el texto principal (1.45rem vs 1.25rem) */
+  font-weight: 800;                 /* Extra bold para darle más presencia */
+  line-height: 1;
+  letter-spacing: -0.02em;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Efecto hover */
+.logo a:hover::after {
+  background-color: var(--primary);
+  color: var(--theme);
+  border-color: var(--primary);
 }

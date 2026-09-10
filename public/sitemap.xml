@@ -20,13 +20,16 @@
     <loc>http://localhost:1313/tags/comunicados/</loc>
     <lastmod>2026-09-06T10:15:00+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/prensa/2026-09-06-elpais/</loc>
+    <lastmod>2026-09-06T10:15:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/prensa/rueda_prensa/</loc>
+    <lastmod>2026-09-06T10:15:00+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2026-09-06T10:15:00+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-09-06T10:15:00+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/prensa/rueda_prensa/</loc>
     <lastmod>2026-09-06T10:15:00+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>

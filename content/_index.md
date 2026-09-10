@@ -5,7 +5,6 @@ preview: /images/portada.jpg
 ---
 ![Portada](images/portada.jpg)
 
-
 # ¿Quiénes somos?
 El pasado 13 de septiembre de 2025, durante la penúltima etapa de La Vuelta a España, más de un centenar de personas participaron en una acción pacífica de protesta y boicot por la participación del equipo sionista Israel Premier Tech. Ese día, a la altura de Becerril de la Sierra, numerosas personas ocuparon la carretera y un par se descolgaron de un puente para mostrar su solidaridad con el pueblo palestino. A raíz de esto, la Guardia Civil actuó con una violencia desproporcionada, deteniendo a un compañero y, posteriormente, encausando a siete activistas más . Nos acusan de atentado a la autoridad, desobediencia y desórdenes públicos. Previsiblemente, juez y fiscal nos pedirán penas de cárcel, y declararemos ante los Juzgados de Collado Villalba el próximo 21 de octubre. Somos las 8 de Becerril y necesitamos tu ayuda para afrontar el proceso judicial y sus posibles consecuencias.
 
